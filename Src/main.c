@@ -127,7 +127,9 @@ void task4_handler(void)
 
 }
 
-
+/*
+	Función que inicializa el Systick Timer
+*/
 void init_systick_timer(uint32_t tick_hz)
 {
 	uint32_t *pSRVR = (uint32_t*)0xE000E014;
