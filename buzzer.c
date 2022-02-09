@@ -1,3 +1,4 @@
 /*
-	Archivo para funciones del buzzer
+	Archivo en ensamblador para funciones del buzzer
+	Set_bit()
 */
