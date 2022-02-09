@@ -1,0 +1,3 @@
+/*
+	Archivo para funciones del buzzer
+*/

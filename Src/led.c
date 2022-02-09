@@ -26,7 +26,7 @@ void led_init_all(void)
 	*pGpiodModeReg |= ( 1 << (2 * LED_RED));
 	*pGpiodModeReg |= ( 1 << (2 * LED_BLUE));
 
-#if 0
+#if 1
 	//configure the outputtype
 	*pGpioOpTypeReg |= ( 1 << (2 * LED_GREEN));
 	*pGpioOpTypeReg |= ( 1 << (2 * LED_ORANGE));
