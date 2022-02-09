@@ -43,6 +43,9 @@ void led_init_all(void)
 
 }
 
+/*
+	Función que enciende un LED
+*/
 void led_on(uint8_t led_no)
 {
   uint32_t *pGpiodDataReg = (uint32_t*)0x40020014;
